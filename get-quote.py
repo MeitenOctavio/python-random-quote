@@ -18,14 +18,19 @@ def classy():
   # print(quotes[13])
 
   numberofquotes = 2
-
   x=0
   while x < numberofquotes :
-    print(quotes[rnd+x])
+    # adding more than 1 quotes base output from numberofquotes
+    # print(quotes[rnd+x])
+
+    # replace '\n' or new line
+    print(quotes[rnd+x].replace("\n",""))
     x+=1
 
   else :
     print(numberofquotes)
+
+  # print(quotes[rnd])
 
 
 if __name__== "__main__":
