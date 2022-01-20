@@ -32,6 +32,8 @@ def classy():
 
   # print(quotes[rnd])
 
+  # adding new line of quotes and delete line of quotes
+  #
 
 if __name__== "__main__":
   classy()
